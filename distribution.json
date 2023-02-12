@@ -327,16 +327,7 @@
             "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/CosmeticArmorReworked-1.12.2-v5a.jar",
             "MD5": "18d7753f69e6f8fed9350b4d908008a9"
           }
-        },
-        {
-          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
-          "name": "Custom Main Menu",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 120619,
-            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
-            "MD5": "67142b99c14a9145e661d6ce852a47af"
-          }
+  
         },
         {
           "id": "noppes.npcs:customnpcs:1.12@jar",
