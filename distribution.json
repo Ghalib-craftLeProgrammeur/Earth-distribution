@@ -8,7 +8,7 @@
   },
   "servers": [
     {
-      "id": "Test-1.12.2",
+      "id": "Earth-block-1.12.2",
       "name": "Test (Minecraft 1.12.2)",
       "description": "Test Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
       "icon": null,
@@ -261,7 +261,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 109321,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/alcatrazcore-1.0.4.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/alcatrazcore-1.0.4.jar",
             "MD5": "e64b3abdcfadc9e4f895487e2fa7d822"
           }
         },
@@ -271,7 +271,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 186686,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/Aquaculture-1.12.2-1.6.8.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/Aquaculture-1.12.2-1.6.8.jar",
             "MD5": "168ee7ded8fa21d49700b99e8617c79b"
           }
         },
@@ -281,7 +281,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 266636,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/Bookshelf-1.12.2-2.3.590.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/Bookshelf-1.12.2-2.3.590.jar",
             "MD5": "85a44d3299449545e435f5ec55fc914b"
           }
         },
@@ -291,7 +291,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 19731,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/chunk_claim-9.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/chunk_claim-9.jar",
             "MD5": "f0eefe4566fcc0bca0b8998a1ab0fbf9"
           }
         },
@@ -301,7 +301,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3782150,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/CIFV-1.6.2+02.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/CIFV-1.6.2+02.jar",
             "MD5": "d5acfe9cced8e74d00ea3b1a21413fe3"
           }
         },
@@ -311,7 +311,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 29043,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/Controlling-3.0.10.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/optionalon/Controlling-3.0.10.jar",
             "MD5": "7696135b09e93265ff190e1ee97a8257"
           },
           "required": {
@@ -324,7 +324,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 72111,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/CosmeticArmorReworked-1.12.2-v5a.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/CosmeticArmorReworked-1.12.2-v5a.jar",
             "MD5": "18d7753f69e6f8fed9350b4d908008a9"
           }
         },
@@ -334,7 +334,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 120619,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
             "MD5": "67142b99c14a9145e661d6ce852a47af"
           }
         },
@@ -344,7 +344,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 9911871,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/CustomNPCs_1.12.2-(05Jul20).jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/CustomNPCs_1.12.2-(05Jul20).jar",
             "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
           }
         },
@@ -354,7 +354,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 211707,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/earthsanimals-1.12.2-1.0-release.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/earthsanimals-1.12.2-1.0-release.jar",
             "MD5": "1ea2812f897fb2bf0012eafc7ec9c74c"
           }
         },
@@ -364,7 +364,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2050306,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/emoticons-1.1.1-1.12.2.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/optionalon/emoticons-1.1.1-1.12.2.jar",
             "MD5": "1768885e40af586690cad27a5733a2cc"
           },
           "required": {
@@ -377,7 +377,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2439199,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/furniture-6.3.2-1.12.2.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/furniture-6.3.2-1.12.2.jar",
             "MD5": "c337d9b9b5465ba6ac78a2ca9f3dbf7c"
           }
         },
@@ -387,7 +387,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 15610630,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/Galacticraft-1.12.2-4.0.2.284.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/Galacticraft-1.12.2-4.0.2.284.jar",
             "MD5": "4868362051e94c791b364508ae4daca2"
           }
         },
@@ -397,7 +397,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3702893,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/geckolib-forge-1.12.2-3.0.31.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/geckolib-forge-1.12.2-3.0.31.jar",
             "MD5": "67c60191c4736b3857e5129282a206cd"
           }
         },
@@ -407,7 +407,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 711220,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/horse_colors-1.12.2-1.3.6.a.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/horse_colors-1.12.2-1.3.6.a.jar",
             "MD5": "073030905d404994027f44839279cb3a"
           }
         },
@@ -417,7 +417,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 127887,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/IceMountains_0.3.2_1.12.2.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/IceMountains_0.3.2_1.12.2.jar",
             "MD5": "27995e1b453f65cb7fda4d2e5644b42a"
           }
         },
@@ -427,7 +427,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6360959,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/ImmersiveEngineering-0.12-98.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/ImmersiveEngineering-0.12-98.jar",
             "MD5": "affce9a7f7cb9ab257135da89314e07e"
           }
         },
@@ -437,7 +437,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 797724,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/immersivepetroleum-1.12.2-1.1.10.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/immersivepetroleum-1.12.2-1.1.10.jar",
             "MD5": "f6a2be6438718a2b950d2fb6d21fac54"
           }
         },
@@ -447,7 +447,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 653211,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/jei_1.12.2-4.16.1.301.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/optionalon/jei_1.12.2-4.16.1.301.jar",
             "MD5": "1dee4be93d666e2228039c551e927b35"
           },
           "required": {
@@ -460,7 +460,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 18945,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/JustEnoughPetroleum-0.1.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/JustEnoughPetroleum-0.1.jar",
             "MD5": "490c5fc3becfa64f3c25a38105796554"
           }
         },
@@ -470,7 +470,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 558707,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/MCglTF-1.12.2-Forge-2.0.2.0.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/MCglTF-1.12.2-Forge-2.0.2.0.jar",
             "MD5": "6a4bd058913a758ffb163cb6725f2718"
           }
         },
@@ -480,7 +480,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 737227,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/mclib-2.4.1-1.12.2.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/mclib-2.4.1-1.12.2.jar",
             "MD5": "cb07b8af714bcd966c87707b165a87fa"
           }
         },
@@ -490,7 +490,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 373298,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/mcw-bridges-1.0.6b-mc1.12.2.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/mcw-bridges-1.0.6b-mc1.12.2.jar",
             "MD5": "b25ba955975fe5ac94a0f53880b05987"
           }
         },
@@ -500,7 +500,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 86911384,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/modularwarfare-2.3.2f.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/modularwarfare-2.3.2f.jar",
             "MD5": "4cd202cfc59343c942bab51a0e813ef3"
           }
         },
@@ -510,7 +510,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 75170,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/MouseTweaks-2.10-mc1.12.2.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/MouseTweaks-2.10-mc1.12.2.jar",
             "MD5": "e4dcbf47c3f99a780681e3a3a9fcf9e9"
           }
         },
@@ -520,7 +520,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 28642,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/NoMoreBadGuys.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/NoMoreBadGuys.jar",
             "MD5": "0cdc0f50b7830887b596874c3cf0b644"
           }
         },
@@ -530,7 +530,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2096298,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/notreepunching-2.0.21.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/notreepunching-2.0.21.jar",
             "MD5": "1b1d9a8be7c0c0dfb9ceb5985014721c"
           }
         },
@@ -540,7 +540,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 129099,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/obfuscate-0.4.2-1.12.2.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/obfuscate-0.4.2-1.12.2.jar",
             "MD5": "a5d3ac71ec8762fe72a91465de6d30a3"
           }
         },
@@ -550,7 +550,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2669107,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5.jar",
             "MD5": "54e561e441192cf009803ae95873c5d0"
           },
           "required": {
@@ -563,7 +563,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 65733,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/RealisticItemDrops-1.2.14.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/optionalon/RealisticItemDrops-1.2.14.jar",
             "MD5": "7ecff9f80b9cd0986b18489405136e81"
           },
           "required": {
@@ -576,7 +576,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 75064,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/RealisticTorches-1.12.2-2.1.2.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/optionalon/RealisticTorches-1.12.2-2.1.2.jar",
             "MD5": "0d05c86af05b7228fa0bf13bf47710ac"
           },
           "required": {
@@ -589,7 +589,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2285146,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/RebornCore-1.12.2-3.19.5-universal.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/RebornCore-1.12.2-3.19.5-universal.jar",
             "MD5": "7ae0f971af00b7fea64dc850be957ddc"
           }
         },
@@ -599,7 +599,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1927840,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/terrarium-1.1.8.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/terrarium-1.1.8.jar",
             "MD5": "e2867e2bb1dbf52f67bb0af032217d08"
           }
         },
@@ -609,7 +609,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1931365,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/terrarium-1.1.9.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/terrarium-1.1.9.jar",
             "MD5": "878d847746476999217f19038e730aba"
           }
         },
@@ -619,7 +619,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 354871,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/ToughAsNails-1.12.2-3.1.0.139-universal.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/ToughAsNails-1.12.2-3.1.0.139-universal.jar",
             "MD5": "f73d052584ec13975bfe7a7f8354f118"
           }
         },
@@ -629,7 +629,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2139906,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/vehicle-mod-0.44.1-1.12.2.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/vehicle-mod-0.44.1-1.12.2.jar",
             "MD5": "276818770667c1bff569d92287c53d95"
           }
         },
@@ -639,7 +639,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 20182,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/waterskin-1.0.1.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/waterskin-1.0.1.jar",
             "MD5": "b2730f31b75a8a5c6f5c9f6731ca2c83"
           }
         },
@@ -649,7 +649,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1434603,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/Xaeros_Minimap_22.17.0_Forge_1.12.jar",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/forgemods/required/Xaeros_Minimap_22.17.0_Forge_1.12.jar",
             "MD5": "fafaf28b0ac086ac17acecc9a100c974"
           }
         },
@@ -659,7 +659,7 @@
           "type": "File",
           "artifact": {
             "size": 4844,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/files/config/CustomMainMenu/mainmenu.json",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/files/config/CustomMainMenu/mainmenu.json",
             "MD5": "618729ede86156d46c8b7c5edcb79b65",
             "path": "config/CustomMainMenu/mainmenu.json"
           }
@@ -670,7 +670,7 @@
           "type": "File",
           "artifact": {
             "size": 3955,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/files/config/forge.cfg",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/files/config/forge.cfg",
             "MD5": "bee77d51b82699b95bf5c02788f654fb",
             "path": "config/forge.cfg"
           }
@@ -681,7 +681,7 @@
           "type": "File",
           "artifact": {
             "size": 2206,
-            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/files/config/forgeChunkLoading.cfg",
+            "url": "https://gamasell.000webhostapp.com/servers/Earth-block-1.12.2/files/config/forgeChunkLoading.cfg",
             "MD5": "95ba05ef01861ee260b40c95e9cc5aec",
             "path": "config/forgeChunkLoading.cfg"
           }
