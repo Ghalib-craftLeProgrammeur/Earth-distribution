@@ -1,0 +1,692 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Test-1.12.2",
+      "name": "Test (Minecraft 1.12.2)",
+      "description": "Test Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466148,
+            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
+            "url": "https://gamasell.000webhostapp.com/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2860",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11799,
+                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
+                "url": "https://gamasell.000webhostapp.com/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://gamasell.000webhostapp.com/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.alcatrazescapee:alcatrazcore:1.0.4@jar",
+          "name": "AlcatrazCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 109321,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/alcatrazcore-1.0.4.jar",
+            "MD5": "e64b3abdcfadc9e4f895487e2fa7d822"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:1.12.2-1.6.8@jar",
+          "name": "Aquaculture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 186686,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/Aquaculture-1.12.2-1.6.8.jar",
+            "MD5": "168ee7ded8fa21d49700b99e8617c79b"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:2.3.590@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 266636,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/Bookshelf-1.12.2-2.3.590.jar",
+            "MD5": "85a44d3299449545e435f5ec55fc914b"
+          }
+        },
+        {
+          "id": "lime.chunk_claim:chunk_claim:9@jar",
+          "name": "Chunk Claim",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19731,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/chunk_claim-9.jar",
+            "MD5": "f0eefe4566fcc0bca0b8998a1ab0fbf9"
+          }
+        },
+        {
+          "id": "net.mcreator:cifv:1.6.2+02@jar",
+          "name": "CIFV",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3782150,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/CIFV-1.6.2+02.jar",
+            "MD5": "d5acfe9cced8e74d00ea3b1a21413fe3"
+          }
+        },
+        {
+          "id": "us.getfluxed.controlsearch:controlling:3.0.10@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29043,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/Controlling-3.0.10.jar",
+            "MD5": "7696135b09e93265ff190e1ee97a8257"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "lain.mods.cos:cosmeticarmorreworked:1.12.2-v5a@jar",
+          "name": "CosmeticArmorReworked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 72111,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/CosmeticArmorReworked-1.12.2-v5a.jar",
+            "MD5": "18d7753f69e6f8fed9350b4d908008a9"
+          }
+        },
+        {
+          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 120619,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+            "MD5": "67142b99c14a9145e661d6ce852a47af"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9911871,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/CustomNPCs_1.12.2-(05Jul20).jar",
+            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
+          }
+        },
+        {
+          "id": "com.setrion.earthsanimals.main:earthsanimals:1.12.2-1.0-release@jar",
+          "name": "Earths Animals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 211707,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/earthsanimals-1.12.2-1.0-release.jar",
+            "MD5": "1ea2812f897fb2bf0012eafc7ec9c74c"
+          }
+        },
+        {
+          "id": "mchorse.emoticons:emoticons:1.1.1-1.12.2@jar",
+          "name": "Emoticons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2050306,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/emoticons-1.1.1-1.12.2.jar",
+            "MD5": "1768885e40af586690cad27a5733a2cc"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:6.3.2@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2439199,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/furniture-6.3.2-1.12.2.jar",
+            "MD5": "c337d9b9b5465ba6ac78a2ca9f3dbf7c"
+          }
+        },
+        {
+          "id": "micdoodle8.mods.galacticraft.core:galacticraftcore:4.0.2.284@jar",
+          "name": "Galacticraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15610630,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/Galacticraft-1.12.2-4.0.2.284.jar",
+            "MD5": "4868362051e94c791b364508ae4daca2"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib3:3.0.30@jar",
+          "name": "GeckoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3702893,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/geckolib-forge-1.12.2-3.0.31.jar",
+            "MD5": "67c60191c4736b3857e5129282a206cd"
+          }
+        },
+        {
+          "id": "sekelsta.horse_colors:horse_colors:1.12.2-1.2.6@jar",
+          "name": "Realistic Horse Genetics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 711220,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/horse_colors-1.12.2-1.3.6.a.jar",
+            "MD5": "073030905d404994027f44839279cb3a"
+          }
+        },
+        {
+          "id": "iizvullokicemountains.mod:iizvullok_icemountains:0.3.2@jar",
+          "name": "Ice Mountains Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 127887,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/IceMountains_0.3.2_1.12.2.jar",
+            "MD5": "27995e1b453f65cb7fda4d2e5644b42a"
+          }
+        },
+        {
+          "id": "blusunrize.immersiveengineering:immersiveengineering:0.12-98@jar",
+          "name": "Immersive Engineering",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6360959,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/ImmersiveEngineering-0.12-98.jar",
+            "MD5": "affce9a7f7cb9ab257135da89314e07e"
+          }
+        },
+        {
+          "id": "flaxbeard.immersivepetroleum:immersivepetroleum:1.1.10@jar",
+          "name": "Immersive Petroleum",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 797724,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/immersivepetroleum-1.12.2-1.1.10.jar",
+            "MD5": "f6a2be6438718a2b950d2fb6d21fac54"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.301@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 653211,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "justenoughpetroleum:justenoughpetroleum:0.1@jar",
+          "name": "Just Enough Petroleum",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18945,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/JustEnoughPetroleum-0.1.jar",
+            "MD5": "490c5fc3becfa64f3c25a38105796554"
+          }
+        },
+        {
+          "id": "com.modularmods:mcgltf:1.12.2-Forge-2.0.2.0@jar",
+          "name": "MCglTF",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 558707,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/MCglTF-1.12.2-Forge-2.0.2.0.jar",
+            "MD5": "6a4bd058913a758ffb163cb6725f2718"
+          }
+        },
+        {
+          "id": "mchorse.mclib:mclib:2.4.1-1.12.2@jar",
+          "name": "McLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 737227,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/mclib-2.4.1-1.12.2.jar",
+            "MD5": "cb07b8af714bcd966c87707b165a87fa"
+          }
+        },
+        {
+          "id": "com.mcwbridges.kikoz:mcwbridges:1.0.6@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 373298,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/mcw-bridges-1.0.6b-mc1.12.2.jar",
+            "MD5": "b25ba955975fe5ac94a0f53880b05987"
+          }
+        },
+        {
+          "id": "com.modularwarfare:modularwarfare:2.3.2f@jar",
+          "name": "ModularWarfare",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 86911384,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/modularwarfare-2.3.2f.jar",
+            "MD5": "4cd202cfc59343c942bab51a0e813ef3"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.10@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75170,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/MouseTweaks-2.10-mc1.12.2.jar",
+            "MD5": "e4dcbf47c3f99a780681e3a3a9fcf9e9"
+          }
+        },
+        {
+          "id": "net.mcreator.nohostiles:nomorebadguys:0.0.0@jar",
+          "name": "NoMoreBadGuys",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28642,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/NoMoreBadGuys.jar",
+            "MD5": "0cdc0f50b7830887b596874c3cf0b644"
+          }
+        },
+        {
+          "id": "com.alcatrazescapee:notreepunching:2.0.21@jar",
+          "name": "No Tree Punching",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2096298,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/notreepunching-2.0.21.jar",
+            "MD5": "1b1d9a8be7c0c0dfb9ceb5985014721c"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.obfuscate.asm:obfuscate:0.4.2-1.12.2@jar",
+          "name": "Obfuscate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 129099,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/obfuscate-0.4.2-1.12.2.jar",
+            "MD5": "a5d3ac71ec8762fe72a91465de6d30a3"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2669107,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5.jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "realdrops.core:realdrops:1.2.14@jar",
+          "name": "Realistic Item Drops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 65733,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/RealisticItemDrops-1.2.14.jar",
+            "MD5": "7ecff9f80b9cd0986b18489405136e81"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.chaosthedude:realistictorches:1.12.2-2.1.2@jar",
+          "name": "Realistic Torches",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75064,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/optionalon/RealisticTorches-1.12.2-2.1.2.jar",
+            "MD5": "0d05c86af05b7228fa0bf13bf47710ac"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "reborncore:reborncore:3.19.5@jar",
+          "name": "Reborn Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2285146,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/RebornCore-1.12.2-3.19.5-universal.jar",
+            "MD5": "7ae0f971af00b7fea64dc850be957ddc"
+          }
+        },
+        {
+          "id": "net.gegy1000:terrarium:1.1.8@jar",
+          "name": "Terrarium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1927840,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/terrarium-1.1.8.jar",
+            "MD5": "e2867e2bb1dbf52f67bb0af032217d08"
+          }
+        },
+        {
+          "id": "net.gegy1000:terrarium:1.1.9@jar",
+          "name": "Terrarium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1931365,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/terrarium-1.1.9.jar",
+            "MD5": "878d847746476999217f19038e730aba"
+          }
+        },
+        {
+          "id": "toughasnails.core:toughasnails:3.1.0@jar",
+          "name": "Tough As Nails",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 354871,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/ToughAsNails-1.12.2-3.1.0.139-universal.jar",
+            "MD5": "f73d052584ec13975bfe7a7f8354f118"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:vehicle:0.44.1@jar",
+          "name": "MrCrayfish's Vehicle Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2139906,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/vehicle-mod-0.44.1-1.12.2.jar",
+            "MD5": "276818770667c1bff569d92287c53d95"
+          }
+        },
+        {
+          "id": "blockynoob.waterskin.common.main:waterskin:1.0.1@jar",
+          "name": "WaterSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20182,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/waterskin-1.0.1.jar",
+            "MD5": "b2730f31b75a8a5c6f5c9f6731ca2c83"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:22.17.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1434603,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/forgemods/required/Xaeros_Minimap_22.17.0_Forge_1.12.jar",
+            "MD5": "fafaf28b0ac086ac17acecc9a100c974"
+          }
+        },
+        {
+          "id": "mainmenu.json",
+          "name": "mainmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 4844,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/files/config/CustomMainMenu/mainmenu.json",
+            "MD5": "618729ede86156d46c8b7c5edcb79b65",
+            "path": "config/CustomMainMenu/mainmenu.json"
+          }
+        },
+        {
+          "id": "forge.cfg",
+          "name": "forge.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3955,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/files/config/forge.cfg",
+            "MD5": "bee77d51b82699b95bf5c02788f654fb",
+            "path": "config/forge.cfg"
+          }
+        },
+        {
+          "id": "forgeChunkLoading.cfg",
+          "name": "forgeChunkLoading.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2206,
+            "url": "https://gamasell.000webhostapp.com/servers/Test-1.12.2/files/config/forgeChunkLoading.cfg",
+            "MD5": "95ba05ef01861ee260b40c95e9cc5aec",
+            "path": "config/forgeChunkLoading.cfg"
+          }
+        }
+      ]
+    }
+  ]
+}
